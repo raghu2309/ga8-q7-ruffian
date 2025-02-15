@@ -1,0 +1,10 @@
+2025-02-15 05:17:46.879 [info] Experiment 'pythonaacf' is active
+2025-02-15 05:17:46.879 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-15 05:17:46.879 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-15 05:17:46.879 [info] Experiment 'pythonTestAdapter' is active
+2025-02-15 05:17:46.879 [warning] Dir "/home/raghutds/.pixi/envs" is not watchable (directory does not exist)
+2025-02-15 05:17:47.307 [info] > pyenv which python
+2025-02-15 05:17:47.307 [info] cwd: .
+2025-02-15 05:17:47.852 [info] > /bin/python3 -I ./.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/interpreterInfo.py
+2025-02-15 05:17:48.560 [info] Python interpreter path: /bin/python3
+2025-02-15 05:17:50.820 [info] Starting Pylance language server.

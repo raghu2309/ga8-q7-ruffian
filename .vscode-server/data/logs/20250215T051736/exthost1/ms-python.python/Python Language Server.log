@@ -1,0 +1,54 @@
+2025-02-15 05:17:50.399 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-15 05:17:50.758 [info] [Info  - 5:17:50 AM] (857) Server root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-15 05:17:50.763 [info] [Info  - 5:17:50 AM] (857) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-15 05:17:50.772 [info] [Info  - 5:17:50 AM] (857) Starting service instance "raghutds"
+2025-02-15 05:17:51.978 [info] [Info  - 5:17:51 AM] (857) Setting environmentName for service "raghutds": "3.12.3 (global)"
+2025-02-15 05:17:52.043 [info] [Info  - 5:17:52 AM] (857) Setting pythonPath for service "raghutds": "/bin/python3"
+2025-02-15 05:17:52.059 [info] [Info  - 5:17:52 AM] (857) No include entries specified; assuming /home/raghutds
+2025-02-15 05:17:52.059 [info] [Info  - 5:17:52 AM] (857) Auto-excluding **/node_modules
+2025-02-15 05:17:52.059 [info] [Info  - 5:17:52 AM] (857) Auto-excluding **/__pycache__
+2025-02-15 05:17:52.059 [info] [Info  - 5:17:52 AM] (857) Auto-excluding **/.*
+2025-02-15 05:17:52.060 [info] [Info  - 5:17:52 AM] (857) Assuming Python version 3.12.3.final.0
+2025-02-15 05:17:52.060 [info] [Info  - 5:17:52 AM] (857) Found 3 source files
+2025-02-15 05:17:53.471 [info] [Info  - 5:17:53 AM] (857) Background analysis(1) root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-15 05:17:53.479 [info] [Info  - 5:17:53 AM] (857) Background analysis(1) started
+2025-02-15 05:17:53.681 [info] [Info  - 5:17:53 AM] (857) Indexer background runner(2) root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-15 05:17:53.681 [info] [Info  - 5:17:53 AM] (857) Indexing(2) started
+2025-02-15 05:17:56.127 [info] [Info  - 5:17:56 AM] (857) [IDX(2)] Long operation: scan packages file:///home/raghutds (2007ms)
+2025-02-15 05:17:56.127 [info] [Info  - 5:17:56 AM] (857) scanned(2) 72 files over 1 exec env
+2025-02-15 05:17:56.621 [info] [Info  - 5:17:56 AM] (857) indexed(2) 72 files over 1 exec env
+2025-02-15 05:17:56.698 [info] [Info  - 5:17:56 AM] (857) Indexing finished(2).
+2025-02-15 05:43:18.631 [info] [Info  - 5:43:18 AM] (857) Setting environmentName for service "raghutds": "3.12.3 (global)"
+2025-02-15 05:43:18.631 [info] [Info  - 5:43:18 AM] (857) Setting pythonPath for service "raghutds": "/bin/python3"
+2025-02-15 05:43:18.632 [info] [Info  - 5:43:18 AM] (857) No include entries specified; assuming /home/raghutds
+2025-02-15 05:43:18.634 [info] [Info  - 5:43:18 AM] (857) Auto-excluding **/node_modules
+2025-02-15 05:43:18.634 [info] [Info  - 5:43:18 AM] (857) Auto-excluding **/__pycache__
+2025-02-15 05:43:18.634 [info] [Info  - 5:43:18 AM] (857) Auto-excluding **/.*
+2025-02-15 05:43:18.675 [info] [Info  - 5:43:18 AM] (857) Assuming Python version 3.12.3.final.0
+2025-02-15 05:43:18.781 [info] [Info  - 5:43:18 AM] (857) Found 3 source files
+2025-02-15 05:43:19.065 [info] [Info  - 5:43:19 AM] (857) Setting environmentName for service "raghutds": "3.12.3 (global)"
+2025-02-15 05:43:19.066 [info] [Info  - 5:43:19 AM] (857) Setting pythonPath for service "raghutds": "/bin/python3"
+2025-02-15 05:43:19.098 [info] [Info  - 5:43:19 AM] (857) No include entries specified; assuming /home/raghutds
+2025-02-15 05:43:19.098 [info] [Info  - 5:43:19 AM] (857) Auto-excluding **/node_modules
+2025-02-15 05:43:19.098 [info] [Info  - 5:43:19 AM] (857) Auto-excluding **/__pycache__
+2025-02-15 05:43:19.098 [info] [Info  - 5:43:19 AM] (857) Auto-excluding **/.*
+2025-02-15 05:43:19.257 [info] [Info  - 5:43:19 AM] (857) Assuming Python version 3.12.3.final.0
+2025-02-15 05:43:19.425 [info] [Info  - 5:43:19 AM] (857) Found 3 source files
+2025-02-15 05:43:21.016 [info] [Info  - 5:43:21 AM] (857) Indexer background runner(3) root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-15 05:43:21.016 [info] [Info  - 5:43:21 AM] (857) Indexing(3) started
+2025-02-15 05:43:21.906 [info] [Info  - 5:43:21 AM] (857) scanned(3) 72 files over 1 exec env
+2025-02-15 05:43:22.597 [info] [Info  - 5:43:22 AM] (857) indexed(3) 72 files over 1 exec env
+2025-02-15 05:43:22.761 [info] [Info  - 5:43:22 AM] (857) Indexing finished(3).
+2025-02-15 06:11:09.635 [info] [Info  - 6:11:09 AM] (857) Setting environmentName for service "raghutds": "3.12.3 (global)"
+2025-02-15 06:11:09.636 [info] [Info  - 6:11:09 AM] (857) Setting pythonPath for service "raghutds": "/bin/python3"
+2025-02-15 06:11:09.636 [info] [Info  - 6:11:09 AM] (857) No include entries specified; assuming /home/raghutds
+2025-02-15 06:11:09.636 [info] [Info  - 6:11:09 AM] (857) Auto-excluding **/node_modules
+2025-02-15 06:11:09.636 [info] [Info  - 6:11:09 AM] (857) Auto-excluding **/__pycache__
+2025-02-15 06:11:09.636 [info] [Info  - 6:11:09 AM] (857) Auto-excluding **/.*
+2025-02-15 06:11:09.746 [info] [Info  - 6:11:09 AM] (857) Assuming Python version 3.12.3.final.0
+2025-02-15 06:11:09.914 [info] [Info  - 6:11:09 AM] (857) Found 3 source files
+2025-02-15 06:11:11.292 [info] [Info  - 6:11:11 AM] (857) Indexer background runner(4) root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-15 06:11:11.292 [info] [Info  - 6:11:11 AM] (857) Indexing(4) started
+2025-02-15 06:11:12.142 [info] [Info  - 6:11:12 AM] (857) scanned(4) 72 files over 1 exec env
+2025-02-15 06:11:12.402 [info] [Info  - 6:11:12 AM] (857) indexed(4) 72 files over 1 exec env
+2025-02-15 06:11:12.456 [info] [Info  - 6:11:12 AM] (857) Indexing finished(4).

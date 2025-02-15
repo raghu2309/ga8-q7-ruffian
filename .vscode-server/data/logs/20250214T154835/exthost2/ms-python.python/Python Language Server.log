@@ -1,0 +1,50 @@
+2025-02-14 17:16:51.387 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-14 17:16:52.410 [info] [Info  - 5:16:52 PM] (17126) Server root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-14 17:16:52.414 [info] [Info  - 5:16:52 PM] (17126) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-14 17:16:52.415 [info] [Info  - 5:16:52 PM] (17126) Starting service instance "ragnewwsl"
+2025-02-14 17:16:52.519 [info] [Info  - 5:16:52 PM] (17126) Setting environmentName for service "ragnewwsl": "3.12.3 (global)"
+2025-02-14 17:16:52.519 [info] [Info  - 5:16:52 PM] (17126) Setting pythonPath for service "ragnewwsl": "/bin/python3"
+2025-02-14 17:16:52.519 [info] [Info  - 5:16:52 PM] (17126) No include entries specified; assuming /home/raghutds/ragnewwsl
+2025-02-14 17:16:52.519 [info] [Info  - 5:16:52 PM] (17126) Auto-excluding **/node_modules
+2025-02-14 17:16:52.520 [info] [Info  - 5:16:52 PM] (17126) Auto-excluding **/__pycache__
+2025-02-14 17:16:52.520 [info] [Info  - 5:16:52 PM] (17126) Auto-excluding **/.*
+2025-02-14 17:16:52.570 [info] [Info  - 5:16:52 PM] (17126) Assuming Python version 3.12.3.final.0
+2025-02-14 17:16:52.708 [info] [Info  - 5:16:52 PM] (17126) No source files found.
+2025-02-14 17:16:53.847 [info] [Info  - 5:16:53 PM] (17126) Background analysis(1) root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-14 17:16:53.852 [info] [Info  - 5:16:53 PM] (17126) Background analysis(1) started
+2025-02-14 17:19:36.163 [info] [Info  - 5:19:36 PM] (17126) Setting environmentName for service "ragnewwsl": "3.12.3 (global)"
+2025-02-14 17:19:36.164 [info] [Info  - 5:19:36 PM] (17126) Setting pythonPath for service "ragnewwsl": "/bin/python3"
+2025-02-14 17:19:36.164 [info] [Info  - 5:19:36 PM] (17126) No include entries specified; assuming /home/raghutds/ragnewwsl
+2025-02-14 17:19:36.164 [info] [Info  - 5:19:36 PM] (17126) Auto-excluding **/node_modules
+2025-02-14 17:19:36.164 [info] [Info  - 5:19:36 PM] (17126) Auto-excluding **/__pycache__
+2025-02-14 17:19:36.164 [info] [Info  - 5:19:36 PM] (17126) Auto-excluding **/.*
+2025-02-14 17:19:36.368 [info] [Info  - 5:19:36 PM] (17126) Assuming Python version 3.12.3.final.0
+2025-02-14 17:19:36.376 [info] [Info  - 5:19:36 PM] (17126) No source files found.
+2025-02-14 17:27:29.428 [info] [Info  - 5:27:29 PM] (17126) Found 1 source file
+2025-02-14 17:27:29.591 [info] [Info  - 5:27:29 PM] (17126) Indexer background runner(2) root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-14 17:27:29.592 [info] [Info  - 5:27:29 PM] (17126) Indexing(2) started
+2025-02-14 17:27:30.745 [info] [Info  - 5:27:30 PM] (17126) scanned(2) 72 files over 1 exec env
+2025-02-14 17:27:32.931 [info] [Info  - 5:27:32 PM] (17126) indexed(2) 72 files over 1 exec env
+2025-02-14 17:27:32.992 [info] [Info  - 5:27:32 PM] (17126) Indexing finished(2).
+2025-02-14 17:29:45.206 [info] [Info  - 5:29:45 PM] Server process exited successfully
+2025-02-14 17:29:46.003 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-14 17:29:47.270 [info] [Info  - 5:29:47 PM] (19426) Server root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-14 17:29:47.274 [info] [Info  - 5:29:47 PM] (19426) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-14 17:29:47.302 [info] [Info  - 5:29:47 PM] (19426) Starting service instance "ragnewwsl"
+2025-02-14 17:29:47.400 [info] [Info  - 5:29:47 PM] (19426) Setting environmentName for service "ragnewwsl": "3.12.3 (global)"
+2025-02-14 17:29:47.402 [info] [Info  - 5:29:47 PM] (19426) Setting pythonPath for service "ragnewwsl": "/bin/python3"
+2025-02-14 17:29:47.402 [info] [Info  - 5:29:47 PM] (19426) No include entries specified; assuming /home/raghutds/ragnewwsl
+2025-02-14 17:29:47.402 [info] [Info  - 5:29:47 PM] (19426) Auto-excluding **/node_modules
+2025-02-14 17:29:47.402 [info] [Info  - 5:29:47 PM] (19426) Auto-excluding **/__pycache__
+2025-02-14 17:29:47.402 [info] [Info  - 5:29:47 PM] (19426) Auto-excluding **/.*
+2025-02-14 17:29:47.453 [info] [Info  - 5:29:47 PM] (19426) Assuming Python version 3.12.3.final.0
+2025-02-14 17:29:47.638 [info] [Info  - 5:29:47 PM] (19426) Found 1 source file
+2025-02-14 17:29:49.008 [info] [Info  - 5:29:49 PM] (19426) Background analysis(1) root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-14 17:29:49.029 [info] [Info  - 5:29:49 PM] (19426) Background analysis(1) started
+2025-02-14 18:44:38.678 [info] [Info  - 6:44:38 PM] (19426) Found 2 source files
+2025-02-14 18:48:36.719 [info] [Info  - 6:48:36 PM] (19426) Found 2 source files
+2025-02-14 18:51:14.183 [info] [Info  - 6:51:14 PM] (19426) Indexer background runner(2) root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-14 18:51:14.185 [info] [Info  - 6:51:14 PM] (19426) Indexing(2) started
+2025-02-14 18:51:15.510 [info] [Info  - 6:51:15 PM] (19426) scanned(2) 72 files over 1 exec env
+2025-02-14 18:51:15.895 [info] [Info  - 6:51:15 PM] (19426) indexed(2) 72 files over 1 exec env
+2025-02-14 18:51:15.962 [info] [Info  - 6:51:15 PM] (19426) Indexing finished(2).

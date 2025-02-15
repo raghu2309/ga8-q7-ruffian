@@ -1,0 +1,21 @@
+2025-02-14 05:04:11.066 [info] (Client) Pylance async client (2025.2.1) started with python extension (2025.0.0)
+2025-02-14 05:04:11.870 [info] [Info  - 5:04:11 AM] (5898) Server root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-14 05:04:11.870 [info] [Info  - 5:04:11 AM] (5898) Pylance language server 2025.2.1 (pyright version 1.1.393, commit 3763156f) starting
+2025-02-14 05:04:11.872 [info] [Info  - 5:04:11 AM] (5898) Starting service instance "raghutds"
+2025-02-14 05:04:11.929 [info] [Info  - 5:04:11 AM] (5898) Setting environmentName for service "raghutds": "3.12.3 (global)"
+2025-02-14 05:04:11.929 [info] [Info  - 5:04:11 AM] (5898) Setting pythonPath for service "raghutds": "/bin/python3"
+2025-02-14 05:04:11.930 [info] [Info  - 5:04:11 AM] (5898) No include entries specified; assuming /home/raghutds
+2025-02-14 05:04:11.932 [info] [Info  - 5:04:11 AM] (5898) Auto-excluding **/node_modules
+2025-02-14 05:04:11.932 [info] [Info  - 5:04:11 AM] (5898) Auto-excluding **/__pycache__
+2025-02-14 05:04:11.932 [info] [Info  - 5:04:11 AM] (5898) Auto-excluding **/.*
+2025-02-14 05:04:11.959 [info] [Info  - 5:04:11 AM] (5898) Assuming Python version 3.12.3.final.0
+2025-02-14 05:04:12.049 [info] [Info  - 5:04:12 AM] (5898) Found 1 source file
+2025-02-14 05:04:12.694 [info] [Info  - 5:04:12 AM] (5898) Background analysis(1) root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-14 05:04:12.699 [info] [Info  - 5:04:12 AM] (5898) Background analysis(1) started
+2025-02-14 05:04:12.868 [info] [Info  - 5:04:12 AM] (5898) Indexer background runner(2) root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist (index)
+2025-02-14 05:04:12.869 [info] [Info  - 5:04:12 AM] (5898) Indexing(2) started
+2025-02-14 05:04:14.219 [info] [Info  - 5:04:14 AM] (5898) scanned(2) 72 files over 1 exec env
+2025-02-14 05:04:18.676 [info] [Info  - 5:04:18 AM] (5898) [IDX(2)] Long operation: index execution environment file:///home/raghutds (4044ms)
+2025-02-14 05:04:18.722 [info] [Info  - 5:04:18 AM] (5898) [IDX(2)] Long operation: index packages file:///home/raghutds (4101ms)
+2025-02-14 05:04:18.725 [info] [Info  - 5:04:18 AM] (5898) indexed(2) 72 files over 1 exec env
+2025-02-14 05:04:18.806 [info] [Info  - 5:04:18 AM] (5898) Indexing finished(2).

@@ -1,0 +1,45 @@
+2025-02-14 15:48:44.821 [info] Experiment 'pythonaacf' is active
+2025-02-14 15:48:44.821 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2025-02-14 15:48:44.821 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2025-02-14 15:48:44.821 [info] Experiment 'pythonTestAdapter' is active
+2025-02-14 15:48:45.664 [info] > python -c "import sys;print(sys.executable)"
+2025-02-14 15:48:45.748 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:343:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2025-02-14 15:48:48.440 [info] Starting Pylance language server.
+2025-02-14 16:33:18.177 [info] Starting Environment refresh
+2025-02-14 16:33:18.177 [info] Searching for interpreters in posix paths locator
+2025-02-14 16:33:18.182 [info] Searching for pyenv environments
+2025-02-14 16:33:18.182 [info] Searching for conda environments
+2025-02-14 16:33:18.183 [info] Searching for global virtual environments
+2025-02-14 16:33:18.183 [info] Searching for custom virtual environments
+2025-02-14 16:33:18.254 [info] > conda info --json
+2025-02-14 16:33:18.259 [info] pyenv is not installed
+2025-02-14 16:33:18.259 [info] Finished searching for pyenv environments: 82 milliseconds
+2025-02-14 16:33:18.259 [info] Finished searching for custom virtual envs: 78 milliseconds
+2025-02-14 16:33:18.264 [info] Finished searching for global virtual envs: 84 milliseconds
+2025-02-14 16:33:18.276 [info] Found: /bin/python3 --> /bin/python3.12
+2025-02-14 16:33:18.276 [info] Found: /bin/python3.12 --> /bin/python3.12
+2025-02-14 16:33:18.296 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2025-02-14 16:33:18.296 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2025-02-14 16:33:18.421 [info] Finished searching for interpreters in posix paths locator: 254 milliseconds
+2025-02-14 16:33:18.421 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/interpreterInfo.py
+2025-02-14 16:33:18.457 [info] > /usr/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/interpreterInfo.py
+2025-02-14 16:33:18.457 [info] Environments refresh paths discovered (event): 294 milliseconds
+2025-02-14 16:33:18.458 [info] Environments refresh paths discovered: 294 milliseconds
+2025-02-14 16:33:18.523 [info] Environments refresh finished (event): 360 milliseconds
+2025-02-14 16:33:18.528 [info] Environment refresh took 366 milliseconds
+2025-02-14 16:33:52.519 [info] Python interpreter path: /bin/python3

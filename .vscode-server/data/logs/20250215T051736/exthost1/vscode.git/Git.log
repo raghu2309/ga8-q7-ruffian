@@ -1,0 +1,152 @@
+2025-02-15 05:17:46.972 [info] [main] Log level: Info
+2025-02-15 05:17:46.972 [info] [main] Validating found git in: "git"
+2025-02-15 05:17:46.972 [info] [main] Using git "2.43.0" from "git"
+2025-02-15 05:17:46.972 [info] [Model][doInitialScan] Initial repository scan started
+2025-02-15 05:17:46.972 [info] > git rev-parse --show-toplevel [12ms]
+2025-02-15 05:17:46.972 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-15 05:17:47.167 [info] > git rev-parse --show-toplevel [234ms]
+2025-02-15 05:17:47.261 [info] > git rev-parse --git-dir --git-common-dir [14ms]
+2025-02-15 05:17:47.289 [info] [Model][openRepository] Opened repository: /home/raghutds/p1test
+2025-02-15 05:17:47.341 [info] > git rev-parse --show-toplevel [6ms]
+2025-02-15 05:17:47.341 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-15 05:17:47.343 [info] > git config --get commit.template [27ms]
+2025-02-15 05:17:47.404 [info] > git rev-parse --show-toplevel [44ms]
+2025-02-15 05:17:47.404 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-15 05:17:47.477 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [87ms]
+2025-02-15 05:17:47.514 [info] > git rev-parse --show-toplevel [91ms]
+2025-02-15 05:17:47.514 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-15 05:17:47.643 [info] > git status -z -uall [149ms]
+2025-02-15 05:17:47.644 [info] > git rev-parse --show-toplevel [96ms]
+2025-02-15 05:17:47.644 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-15 05:17:47.646 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [133ms]
+2025-02-15 05:17:47.768 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [37ms]
+2025-02-15 05:17:47.789 [info] > git config --get --local branch.master.vscode-merge-base [14ms]
+2025-02-15 05:17:47.789 [warning] [Git][config] git config failed: Failed to execute git
+2025-02-15 05:17:47.794 [info] > git config --get commit.template [30ms]
+2025-02-15 05:17:47.795 [info] > git rev-parse --show-toplevel [40ms]
+2025-02-15 05:17:47.795 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-15 05:17:47.815 [info] > git rev-parse --show-toplevel [11ms]
+2025-02-15 05:17:47.815 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-15 05:17:47.815 [info] > git reflog master --grep-reflog=branch: Created from *. [21ms]
+2025-02-15 05:17:47.827 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2025-02-15 05:17:47.890 [info] > git status -z -uall [56ms]
+2025-02-15 05:17:47.891 [info] > git rev-parse --show-toplevel [65ms]
+2025-02-15 05:17:47.891 [info] > git symbolic-ref --short refs/remotes/TDS_P1/HEAD [70ms]
+2025-02-15 05:17:47.891 [info] fatal: ref refs/remotes/TDS_P1/HEAD is not a symbolic ref
+2025-02-15 05:17:47.891 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-02-15 05:17:47.928 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [88ms]
+2025-02-15 05:17:47.954 [info] > git rev-parse --git-dir --git-common-dir [28ms]
+2025-02-15 05:17:47.966 [info] [Model][openRepository] Opened repository: /home/raghutds/ragnewwsl
+2025-02-15 05:17:47.981 [info] [Model][doInitialScan] Initial repository scan completed - repositories (2), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-02-15 05:17:48.546 [info] > git check-ignore -v -z --stdin [599ms]
+2025-02-15 05:17:48.547 [info] > git show --textconv :app.py [559ms]
+2025-02-15 05:17:48.577 [info] > git hash-object -t tree /dev/null [23ms]
+2025-02-15 05:17:48.577 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/raghutds/p1test/app.py.git?%7B%22path%22%3A%22%2Fhome%2Fraghutds%2Fp1test%2Fapp.py%22%2C%22ref%22%3A%22%22%7D
+2025-02-15 05:17:48.581 [info] > git config --get commit.template [578ms]
+2025-02-15 05:17:48.581 [info] > git ls-files --stage -- /home/raghutds/p1test/app.py [588ms]
+2025-02-15 05:17:48.585 [warning] [GitFileSystemProvider][stat] File not found - git:/home/raghutds/p1test/app.py.git?%7B%22path%22%3A%22%2Fhome%2Fraghutds%2Fp1test%2Fapp.py%22%2C%22ref%22%3A%22%22%7D
+2025-02-15 05:17:48.674 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [79ms]
+2025-02-15 05:17:49.231 [info] > git status -z -uall [551ms]
+2025-02-15 05:17:49.231 [info] > git check-ignore -v -z --stdin [57ms]
+2025-02-15 05:17:49.232 [info] > git check-ignore -v -z --stdin [53ms]
+2025-02-15 05:17:49.236 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [548ms]
+2025-02-15 05:17:49.305 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [53ms]
+2025-02-15 05:17:49.327 [info] > git blame --root --incremental 25fb962cf3ebfea5173b24bf620e5d49d0e846ce -- /home/raghutds/p1test/app.py [24ms]
+2025-02-15 05:17:49.327 [info] fatal: no such path app.py in 25fb962cf3ebfea5173b24bf620e5d49d0e846ce
+2025-02-15 05:17:49.329 [info] > git config --get commit.template [53ms]
+2025-02-15 05:17:49.338 [info] > git config --get --local branch.main.vscode-merge-base [27ms]
+2025-02-15 05:17:50.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [816ms]
+2025-02-15 05:17:50.169 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [825ms]
+2025-02-15 05:17:50.401 [info] > git merge-base refs/heads/main refs/remotes/origin/main [226ms]
+2025-02-15 05:17:50.468 [info] > git status -z -uall [49ms]
+2025-02-15 05:17:50.469 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [43ms]
+2025-02-15 05:17:50.479 [info] > git diff --name-status -z --diff-filter=ADMR 28223c648e0a7b77a2304f9380b4675f8cb73071...refs/remotes/origin/main [72ms]
+2025-02-15 05:17:50.485 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2025-02-15 05:17:50.506 [info] > git diff --name-status -z --diff-filter=ADMR 28223c648e0a7b77a2304f9380b4675f8cb73071...refs/remotes/origin/main [11ms]
+2025-02-15 05:21:19.146 [info] > git check-ignore -v -z --stdin [7ms]
+2025-02-15 05:21:20.817 [info] > git check-ignore -v -z --stdin [20ms]
+2025-02-15 05:21:48.946 [info] > git ls-files --stage -- /home/raghutds/ragnewwsl/Dockerfile [6ms]
+2025-02-15 05:21:48.973 [info] > git show --textconv :Dockerfile [43ms]
+2025-02-15 05:21:48.973 [info] > git cat-file -s 26a224df253eef87ea57e3446038c75739eb4b06 [20ms]
+2025-02-15 05:22:27.055 [info] > git show --textconv :test14feb25.txt [10ms]
+2025-02-15 05:22:27.059 [info] > git ls-files --stage -- /home/raghutds/ragnewwsl/test14feb25.txt [5ms]
+2025-02-15 05:22:27.071 [info] > git cat-file -s 6d76e5f19697440ee98937bbc7a210aeef7993fd [2ms]
+2025-02-15 05:43:18.478 [info] > git rev-parse --show-toplevel [41ms]
+2025-02-15 05:43:18.478 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-15 05:43:18.527 [info] > git rev-parse --show-toplevel [28ms]
+2025-02-15 05:43:18.527 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-15 05:43:18.930 [info] > git check-ignore -v -z --stdin [5ms]
+2025-02-15 05:43:24.670 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-15 05:43:24.670 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-02-15 05:44:49.950 [info] > git blame --root --incremental 06a52760cd0414f5df4b016be2f0c1dc74905b3d -- /home/raghutds/ragnewwsl/test14feb25.txt [4ms]
+2025-02-15 05:44:58.683 [info] > git check-ignore -v -z --stdin [7ms]
+2025-02-15 05:54:06.469 [info] > git rev-parse --show-toplevel [5ms]
+2025-02-15 05:54:06.489 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2025-02-15 05:54:06.529 [info] [Model][openRepository] Opened repository: /home/raghutds
+2025-02-15 05:54:06.573 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-15 05:54:06.579 [info] > git config --get commit.template [25ms]
+2025-02-15 05:54:06.580 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2025-02-15 05:54:06.581 [warning] [Git][getBranch] No such branch: master
+2025-02-15 05:54:06.614 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-02-15 05:54:07.115 [info] > git status -z -uall [524ms] (cancelled)
+2025-02-15 05:54:09.374 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2285ms]
+2025-02-15 05:54:09.375 [warning] [Git][getBranch] No such branch: master
+2025-02-15 05:54:09.378 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-02-15 05:54:09.484 [info] > git check-ignore -v -z --stdin [39ms]
+2025-02-15 05:54:09.487 [info] > git config --get commit.template [120ms]
+2025-02-15 05:54:09.530 [info] [Git][getRemotes] No remotes found in the git config file
+2025-02-15 05:54:09.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2025-02-15 05:54:09.545 [warning] [Git][getBranch] No such branch: master
+2025-02-15 05:54:09.624 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [30ms]
+2025-02-15 05:54:10.150 [info] > git status -z -uall [566ms] (cancelled)
+2025-02-15 05:59:35.766 [info] > git check-ignore -v -z --stdin [38ms]
+2025-02-15 05:59:35.774 [info] > git check-ignore -v -z --stdin [30ms]
+2025-02-15 05:59:35.775 [info] > git check-ignore -v -z --stdin [16ms]
+2025-02-15 06:10:19.650 [info] > git check-ignore -v -z --stdin [6ms]
+2025-02-15 06:11:08.852 [info] > git add -A -- . [12ms]
+2025-02-15 06:11:08.909 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [51ms]
+2025-02-15 06:11:08.918 [info] > git config --get commit.template [1ms]
+2025-02-15 06:11:08.939 [info] > git config --get commit.template [10ms]
+2025-02-15 06:11:08.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-02-15 06:11:08.958 [info] > git status -z -uall [8ms]
+2025-02-15 06:11:08.961 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-15 06:11:09.197 [info] > git config --get commit.template [13ms]
+2025-02-15 06:11:09.198 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2025-02-15 06:11:09.215 [info] > git status -z -uall [11ms]
+2025-02-15 06:11:09.217 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-02-15 06:11:09.567 [info] > git show --textconv :app.py [107ms]
+2025-02-15 06:11:09.568 [info] > git ls-files --stage -- /home/raghutds/p1test/app.py [93ms]
+2025-02-15 06:11:09.585 [info] > git cat-file -s 57daa8b1f24b57e7e4922a113aa5f07fee562d29 [11ms]
+2025-02-15 06:11:09.713 [info] > git blame --root --incremental 7b5d969f66bc15351193f5f697c2a04285ec7e94 -- /home/raghutds/p1test/app.py [10ms]
+2025-02-15 06:11:10.198 [info] > git ls-files --stage -- /home/raghutds/p1test/app.py [18ms]
+2025-02-15 06:11:10.225 [info] > git cat-file -s 57daa8b1f24b57e7e4922a113aa5f07fee562d29 [4ms]
+2025-02-15 06:11:10.279 [info] > git show --textconv :app.py [4ms]
+2025-02-15 06:11:27.631 [info] > git add -A -- . [16ms]
+2025-02-15 06:11:27.631 [info] error: 'tdsproject1/' does not have a commit checked out
+fatal: adding files failed
+2025-02-15 06:11:27.650 [info] > git config --get commit.template [8ms]
+2025-02-15 06:11:27.652 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-02-15 06:11:27.677 [info] > git status -z -uall [17ms]
+2025-02-15 06:11:27.680 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-02-15 06:11:44.059 [info] > git push -u TDS_P1 master [1787ms]
+2025-02-15 06:11:44.059 [info] remote: 
+remote: Create a pull request for 'master' on GitHub by visiting:        
+remote:      https://github.com/raghu2309/TDS_P1/pull/new/master        
+remote: 
+To https://github.com/raghu2309/TDS_P1.git
+ * [new branch]      master -> master
+2025-02-15 06:11:44.117 [info] > git config --get commit.template [22ms]
+2025-02-15 06:11:44.120 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-02-15 06:11:44.158 [info] > git status -z -uall [17ms]
+2025-02-15 06:11:44.162 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2025-02-15 06:11:44.205 [info] > git merge-base refs/heads/master refs/remotes/TDS_P1/master [17ms]
+2025-02-15 06:11:44.219 [info] > git diff --name-status -z --diff-filter=ADMR 7b5d969f66bc15351193f5f697c2a04285ec7e94...refs/remotes/TDS_P1/master [7ms]
+2025-02-15 06:11:45.259 [info] > git config --get commit.template [18ms]
+2025-02-15 06:11:45.273 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2025-02-15 06:11:45.323 [info] > git status -z -uall [27ms]
+2025-02-15 06:11:45.325 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2025-02-15 06:11:45.399 [info] > git ls-files --stage -- /home/raghutds/p1test/app.py [4ms]
+2025-02-15 06:11:45.409 [info] > git cat-file -s 57daa8b1f24b57e7e4922a113aa5f07fee562d29 [3ms]
+2025-02-15 06:11:45.479 [info] > git show --textconv :app.py [4ms]
+2025-02-15 06:11:59.020 [info] > git check-ignore -v -z --stdin [5ms]
+2025-02-15 06:12:00.944 [info] > git check-ignore -v -z --stdin [6ms]
