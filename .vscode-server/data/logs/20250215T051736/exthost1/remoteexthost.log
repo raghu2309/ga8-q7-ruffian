@@ -13,3 +13,4 @@
 2025-02-15 05:21:47.930 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockerfile'
 2025-02-15 05:54:07.021 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
 2025-02-15 05:54:10.131 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2025-02-15 06:13:25.731 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10001

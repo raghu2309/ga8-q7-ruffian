@@ -52,3 +52,15 @@
 2025-02-15 06:11:12.142 [info] [Info  - 6:11:12 AM] (857) scanned(4) 72 files over 1 exec env
 2025-02-15 06:11:12.402 [info] [Info  - 6:11:12 AM] (857) indexed(4) 72 files over 1 exec env
 2025-02-15 06:11:12.456 [info] [Info  - 6:11:12 AM] (857) Indexing finished(4).
+2025-02-15 07:08:30.812 [info] [Info  - 7:08:30 AM] (857) Starting service instance "<default>"
+2025-02-15 07:08:30.889 [info] [Info  - 7:08:30 AM] (857) Setting environmentName for service "<default>": "3.12.3 (global)"
+2025-02-15 07:08:30.890 [info] [Info  - 7:08:30 AM] (857) Setting pythonPath for service "<default>": "/bin/python3"
+2025-02-15 07:08:30.891 [info] [Info  - 7:08:30 AM] (857) No include entries specified; assuming /<default workspace root>
+2025-02-15 07:08:30.891 [info] [Info  - 7:08:30 AM] (857) Auto-excluding **/node_modules
+2025-02-15 07:08:30.892 [info] [Info  - 7:08:30 AM] (857) Auto-excluding **/__pycache__
+2025-02-15 07:08:30.892 [info] [Info  - 7:08:30 AM] (857) Auto-excluding **/.*
+2025-02-15 07:08:30.994 [info] [Info  - 7:08:30 AM] (857) Assuming Python version 3.12.3.final.0
+2025-02-15 07:08:31.142 [info] [Error - 7:08:31 AM] (857) File or directory "/<default workspace root>" does not exist.
+2025-02-15 07:08:31.143 [info] [Info  - 7:08:31 AM] (857) No source files found.
+2025-02-15 07:08:32.051 [info] [Info  - 7:08:32 AM] (857) Background analysis(5) root directory: file:///home/raghutds/.vscode-server/extensions/ms-python.vscode-pylance-2025.2.1/dist
+2025-02-15 07:08:32.059 [info] [Info  - 7:08:32 AM] (857) Background analysis(5) started
